@@ -19,8 +19,8 @@ function App() {
               className="max-w-lg h-full sm:h-9 md:h-4 lg:h-6"
               src={
                 darkMode
-                  ? "public/alarado-icon-homepage.svg"
-                  : "public/alarado-icon-homepage-white.svg"
+                  ? "/alarado-icon-homepage.svg"
+                  : "/alarado-icon-homepage-white.svg"
               }
               alt="logo"
             />
@@ -66,8 +66,8 @@ function App() {
           
             <img  src={
                 darkMode
-                  ? "public/menu.svg"
-                  : "public/menuWhite.svg"
+                  ? "/menu.svg"
+                  : "/menuWhite.svg"
               } alt="close" className="w-8 fill-current" />
           </button>
         </nav>
@@ -77,7 +77,7 @@ function App() {
         <div className="flex justify-center grow-[1] items-center md:mt-16 lg:m-0">
           <img
             className="object-cover bg-no-repeat min-w-6xl px-2 md:px-16 lg:px-8 lg:h-auto"
-            src="public/hero-image-simple-homepage.png"
+            src="/hero-image-simple-homepage.png"
             alt="hero"
           />
         </div>
@@ -110,7 +110,7 @@ function App() {
 
           <article className="flex flex-row justify-start gap-2 items-center pb-4 sm:pb-12 md:pb-16 md:mt-11 lg:mt-9">
             <img
-              src="public/Done_ring_round_fill.svg"
+              src="/Done_ring_round_fill.svg"
               alt="done"
               className="w-3 sm:w-5 md:w-6"
             />
@@ -119,7 +119,7 @@ function App() {
             </h4>
 
             <img
-              src="public/Done_ring_round_fill.svg"
+              src="/Done_ring_round_fill.svg"
               alt="done"
               className="w-3 sm:w-5 md:w-6"
             />

@@ -16,8 +16,8 @@ export default function DrawerMenu({ open, setOpen, handleMode,darkMode }) {
           >
             <img src={
                 darkMode
-                  ? "public/close.svg"
-                  : "public/closeWhite.svg"
+                  ? "/close.svg"
+                  : "/closeWhite.svg"
               } alt="close" className="w-8 ml-56" />
           </button>
         </div>
